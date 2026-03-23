@@ -1,0 +1,687 @@
+{
+  "meta": {
+    "last_emp_num": 26
+  },
+  "system_users": {
+    "admin": {
+      "password_hash": "17636995290cda707d8841b17774a790:bf0342d21cc5d2032e639f59be6b80ad0e36604465fba78a348f00354c07d765",
+      "role": "admin",
+      "full_name": "System Administrator",
+      "emp_id": null,
+      "photo": null,
+      "created": "2026-03-22"
+    },
+    "hr_manager": {
+      "password_hash": "b9a05cb3d42fd6c3acc8ca271740a7cb:eebc8b4a7518d32610fef3b1f952996dfc4f5345442dbc13cdbc8929c69cd396",
+      "role": "hr",
+      "full_name": "HR Manager",
+      "emp_id": null,
+      "photo": null,
+      "created": "2026-03-22"
+    },
+    "manager1": {
+      "password_hash": "c1fcc197f99f5d4402b4867c1bd259c7:bf7e1fc34f9f640ce701567275a5f7a0b3c87d5f01f4138422c30f23241e56d8",
+      "role": "manager",
+      "full_name": "Department Manager",
+      "emp_id": null,
+      "photo": null,
+      "created": "2026-03-22"
+    },
+    "staff1": {
+      "password_hash": "b81ed6dbcdf7d6029e04407a2e24fdd8:3ef2a52b7fed725d9ce2c5f1956ae47aa5bedffd5e1abeaed70db907bc5bd2bb",
+      "role": "staff",
+      "full_name": "Staff Member",
+      "emp_id": null,
+      "photo": null,
+      "created": "2026-03-22"
+    },
+    "MEI": {
+      "password_hash": "3974e5727b8c89d4ec5318793464f337:d00fa3c7cc40166a043f45d5115096313e683f1e19dd91d7cc0f7f09eb8efed7",
+      "role": "staff",
+      "full_name": "Mei-Ling Chen",
+      "emp_id": "ARCH-2026-0001",
+      "photo": null,
+      "created": "2026-03-22"
+    }
+  },
+  "employees": {
+    "ARCH-2026-0001": {
+      "full_name": "Mei-Ling Chen",
+      "email": "m.chen@archerco.com",
+      "department": "Administration",
+      "occupation": "Executive Assistant",
+      "role": "Senior Executive Assistant",
+      "purpose": "Provides high-level administrative support to C-suite executives including calendar management, board preparation, correspondence handling, and stakeholder liaison. Acts as the primary point of coordination between executive leadership and all internal departments.",
+      "age": "34",
+      "location": "San Francisco, CA",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "82000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2024-03-10"
+    },
+    "ARCH-2026-0002": {
+      "full_name": "Andrei Popescu",
+      "email": "a.popescu@archerco.com",
+      "department": "Administration",
+      "occupation": "Office Manager",
+      "role": "Head of Office Operations",
+      "purpose": "Oversees all day-to-day office functions including facilities management, vendor contracts, procurement of office supplies, and space planning. Responsible for maintaining a productive, compliant, and well-resourced work environment across all US office locations.",
+      "age": "42",
+      "location": "New York, NY",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "95000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-11-01"
+    },
+    "ARCH-2026-0003": {
+      "full_name": "Fatou Diallo",
+      "email": "f.diallo@archerco.com",
+      "department": "Administration",
+      "occupation": "Records Officer",
+      "role": "Junior Records & Compliance Officer",
+      "purpose": "Manages the organisation's document lifecycle including filing, archiving, retrieval, and disposal of corporate records in line with US regulatory retention schedules. Supports compliance audits and maintains the integrity of the corporate document management system.",
+      "age": "27",
+      "location": "Atlanta, GA",
+      "employment_type": "probation",
+      "status": "active",
+      "salary": "58000",
+      "salary_currency": "USD",
+      "contract_end": "2025-06-30",
+      "date_added": "2025-01-15"
+    },
+    "ARCH-2026-0004": {
+      "full_name": "Ravi Krishnamurthy",
+      "email": "r.krishnamurthy@archerco.com",
+      "department": "Administration",
+      "occupation": "Corporate Secretary",
+      "role": "Senior Corporate Secretary",
+      "purpose": "Ensures the company complies with US statutory and regulatory requirements. Prepares and maintains board meeting minutes, resolutions, and state filings. Advises leadership on governance obligations, Delaware corporate law, and shareholder communications.",
+      "age": "38",
+      "location": "Houston, TX",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "78000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-05-20"
+    },
+    "ARCH-2026-0005": {
+      "full_name": "Valentina Morales",
+      "email": "v.morales@archerco.com",
+      "department": "Administration",
+      "occupation": "Administrative Coordinator",
+      "role": "Mid-Level Administrative Coordinator",
+      "purpose": "Coordinates cross-departmental administrative activities including travel logistics, event planning, internal communications, and meeting scheduling. Serves as a central contact point for administrative requests from all US-based departments.",
+      "age": "31",
+      "location": "Miami, FL",
+      "employment_type": "contract",
+      "status": "active",
+      "salary": "65000",
+      "salary_currency": "USD",
+      "contract_end": "2025-12-31",
+      "date_added": "2024-01-08"
+    },
+    "ARCH-2026-0006": {
+      "full_name": "Yuki Tanaka",
+      "email": "y.tanaka@archerco.com",
+      "department": "Human Resources",
+      "occupation": "HR Business Partner",
+      "role": "Senior HR Business Partner",
+      "purpose": "Serves as a strategic partner to department heads, aligning people practices with business objectives. Leads workforce planning, talent reviews, performance management cycles, and change management initiatives across assigned US business units.",
+      "age": "36",
+      "location": "Seattle, WA",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "105000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-02-14"
+    },
+    "ARCH-2026-0007": {
+      "full_name": "Kwame Asante",
+      "email": "k.asante@archerco.com",
+      "department": "Human Resources",
+      "occupation": "Recruitment Specialist",
+      "role": "Mid-Level Talent Acquisition Specialist",
+      "purpose": "Manages the full recruitment lifecycle from job briefing through to offer acceptance. Sources candidates via job boards, LinkedIn, and referrals; conducts competency-based screening; coordinates panel interviews; and ensures a positive candidate experience at every stage.",
+      "age": "29",
+      "location": "Chicago, IL",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "78000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-08-22"
+    },
+    "ARCH-2026-0008": {
+      "full_name": "Ingrid Svensson",
+      "email": "i.svensson@archerco.com",
+      "department": "Human Resources",
+      "occupation": "Learning & Development Lead",
+      "role": "Lead \u2014 Learning, Development & Culture",
+      "purpose": "Designs, delivers, and evaluates enterprise-wide training programmes covering technical skills, leadership, onboarding, and compliance. Manages relationships with external training vendors and maintains the LMS to track employee development progress across all US offices.",
+      "age": "41",
+      "location": "Boston, MA",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "98000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2022-10-05"
+    },
+    "ARCH-2026-0009": {
+      "full_name": "Diego Ramirez",
+      "email": "d.ramirez@archerco.com",
+      "department": "Human Resources",
+      "occupation": "HR Analyst",
+      "role": "Junior HR Data & Analytics Analyst",
+      "purpose": "Collects, analyses, and reports on HR metrics including headcount, attrition, time-to-hire, engagement scores, and absenteeism. Builds dashboards and periodic reports that support evidence-based people decisions by senior HR leadership.",
+      "age": "25",
+      "location": "Austin, TX",
+      "employment_type": "probation",
+      "status": "active",
+      "salary": "62000",
+      "salary_currency": "USD",
+      "contract_end": "2025-07-31",
+      "date_added": "2025-02-01"
+    },
+    "ARCH-2026-0010": {
+      "full_name": "Priya Nair",
+      "email": "p.nair@archerco.com",
+      "department": "Human Resources",
+      "occupation": "Compensation & Benefits Officer",
+      "role": "Mid-Level Compensation, Benefits & Payroll Officer",
+      "purpose": "Administers the company's US compensation framework including salary benchmarking, grading structures, and annual review processes. Manages employee benefits enrolment, health insurance liaison, 401(k) administration, and payroll inputs to ensure accurate and timely employee remuneration.",
+      "age": "33",
+      "location": "San Jose, CA",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "88000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-12-10"
+    },
+    "ARCH-2026-0011": {
+      "full_name": "Lior Ben-David",
+      "email": "l.bendavid@archerco.com",
+      "department": "Finance",
+      "occupation": "Chief Accountant",
+      "role": "Head of Finance & Accounting",
+      "purpose": "Leads the full accounting function including month-end and year-end close, preparation of financial statements under US GAAP, and primary liaison with external auditors. Oversees the finance team, sets internal controls policy, and presents financial performance reports to the CFO and board.",
+      "age": "45",
+      "location": "New York, NY",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "145000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2021-07-19"
+    },
+    "ARCH-2026-0012": {
+      "full_name": "Hana Novak",
+      "email": "h.novak@archerco.com",
+      "department": "Finance",
+      "occupation": "Financial Analyst",
+      "role": "Mid-Level Financial Planning & Analysis Analyst",
+      "purpose": "Supports the annual budget cycle, quarterly forecasting, and ongoing variance analysis against financial targets. Builds financial models to evaluate business cases, investment opportunities, and cost optimisation initiatives across all US departments.",
+      "age": "30",
+      "location": "Denver, CO",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "92000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-09-03"
+    },
+    "ARCH-2026-0013": {
+      "full_name": "Tariq Al-Farsi",
+      "email": "t.alfarsi@archerco.com",
+      "department": "Finance",
+      "occupation": "Internal Auditor",
+      "role": "Senior Internal Auditor",
+      "purpose": "Plans and executes internal audit assignments across finance, operations, and compliance functions. Assesses the adequacy of internal controls, identifies financial and operational risks, and delivers audit findings with actionable recommendations to management and the audit committee.",
+      "age": "37",
+      "location": "Washington, DC",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "115000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2022-04-11"
+    },
+    "ARCH-2026-0014": {
+      "full_name": "Chiara Romano",
+      "email": "c.romano@archerco.com",
+      "department": "Finance",
+      "occupation": "Budget Officer",
+      "role": "Mid-Level Budget & Cost Control Officer",
+      "purpose": "Coordinates the annual and supplementary budget preparation process across all departments. Monitors actual expenditure against approved budgets, flags variances, and works with department heads to ensure cost discipline and reforecast accuracy throughout the financial year.",
+      "age": "32",
+      "location": "Philadelphia, PA",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "87000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-06-28"
+    },
+    "ARCH-2026-0015": {
+      "full_name": "Seun Adeyemi",
+      "email": "s.adeyemi@archerco.com",
+      "department": "Finance",
+      "occupation": "Treasury Analyst",
+      "role": "Junior Treasury & Cash Management Analyst",
+      "purpose": "Assists in monitoring daily cash positions, preparing bank reconciliations, and processing payments through the company's treasury management system. Supports foreign currency management, intercompany settlements, and liquidity reporting under the supervision of the Head of Finance.",
+      "age": "26",
+      "location": "Charlotte, NC",
+      "employment_type": "contract",
+      "status": "active",
+      "salary": "68000",
+      "salary_currency": "USD",
+      "contract_end": "2025-11-30",
+      "date_added": "2024-06-01"
+    },
+    "ARCH-2026-0016": {
+      "full_name": "Jin-Ho Park",
+      "email": "j.park@archerco.com",
+      "department": "Operations",
+      "occupation": "Operations Manager",
+      "role": "Head of Operations & Service Delivery",
+      "purpose": "Directs all operational activities across the US enterprise, setting service delivery standards, managing vendor relationships, and leading cross-functional project execution. Responsible for operational KPIs, SLA compliance, and continuous improvement of end-to-end business processes.",
+      "age": "44",
+      "location": "Los Angeles, CA",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "130000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2021-11-22"
+    },
+    "ARCH-2026-0017": {
+      "full_name": "Amara Diop",
+      "email": "a.diop@archerco.com",
+      "department": "Operations",
+      "occupation": "Logistics Coordinator",
+      "role": "Mid-Level Logistics & Supply Chain Coordinator",
+      "purpose": "Manages the movement of goods, materials, and equipment across the US supply chain. Coordinates with vendors, freight carriers, and internal teams to ensure timely delivery, accurate inventory levels, and cost-effective logistics operations.",
+      "age": "28",
+      "location": "Dallas, TX",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "72000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2024-02-17"
+    },
+    "ARCH-2026-0018": {
+      "full_name": "Aleksei Volkov",
+      "email": "a.volkov@archerco.com",
+      "department": "Operations",
+      "occupation": "Process Improvement Analyst",
+      "role": "Senior Business Process Improvement Analyst",
+      "purpose": "Identifies operational inefficiencies and designs improved workflows using Lean and Six Sigma methodologies. Leads process mapping workshops, develops standard operating procedures, and tracks the measurable impact of improvement initiatives on cost, speed, and quality.",
+      "age": "35",
+      "location": "Minneapolis, MN",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "98000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2022-08-09"
+    },
+    "ARCH-2026-0019": {
+      "full_name": "Nadia El-Amin",
+      "email": "n.elamin@archerco.com",
+      "department": "Operations",
+      "occupation": "Service Delivery Officer",
+      "role": "Mid-Level Client Service Delivery Officer",
+      "purpose": "Manages client-facing service delivery activities, ensuring contractual obligations are met and service levels consistently achieved. Acts as the primary escalation contact for operational issues, tracks service tickets to resolution, and prepares monthly service performance reports for clients.",
+      "age": "31",
+      "location": "Phoenix, AZ",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "75000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-10-14"
+    },
+    "ARCH-2026-0020": {
+      "full_name": "Tomasz Wi\u015bniewski",
+      "email": "t.wisniewski@archerco.com",
+      "department": "Operations",
+      "occupation": "Quality Assurance Specialist",
+      "role": "Senior Quality Assurance & Compliance Specialist",
+      "purpose": "Develops and enforces quality assurance standards across all operational processes. Conducts regular quality audits, manages non-conformance reports, and drives corrective action programmes. Ensures adherence to ISO standards and US regulatory quality management frameworks.",
+      "age": "39",
+      "location": "Detroit, MI",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "105000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2022-03-30"
+    },
+    "ARCH-2026-0021": {
+      "full_name": "Arjun Mehta",
+      "email": "a.mehta@archerco.com",
+      "department": "Technology",
+      "occupation": "Software Engineer",
+      "role": "Senior Full-Stack Software Engineer",
+      "purpose": "Designs, builds, and maintains enterprise web applications and internal tools. Leads technical architecture decisions, conducts code reviews, and mentors junior engineers. Responsible for delivering scalable, well-tested software that meets business requirements on schedule and within scope.",
+      "age": "33",
+      "location": "San Francisco, CA",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "155000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2022-06-01"
+    },
+    "ARCH-2026-0022": {
+      "full_name": "Yara Al-Khalidi",
+      "email": "y.alkhalidi@archerco.com",
+      "department": "Technology",
+      "occupation": "DevOps Engineer",
+      "role": "Mid-Level DevOps & Cloud Infrastructure Engineer",
+      "purpose": "Manages the CI/CD pipeline, AWS cloud infrastructure, containerisation (Docker/Kubernetes), and deployment automation. Monitors system performance, manages incidents, and ensures reliable, secure, and cost-optimised infrastructure to support all digital products.",
+      "age": "29",
+      "location": "Austin, TX",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "130000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-04-18"
+    },
+    "ARCH-2026-0023": {
+      "full_name": "Emre Yilmaz",
+      "email": "e.yilmaz@archerco.com",
+      "department": "Technology",
+      "occupation": "Data Analyst",
+      "role": "Mid-Level Data & Business Intelligence Analyst",
+      "purpose": "Transforms raw business data into actionable insights through SQL querying, data modelling, and BI dashboard development (Power BI, Tableau). Works with department heads to define KPIs, automate reporting, and support data-driven decision-making across the company.",
+      "age": "27",
+      "location": "New York, NY",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "110000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2023-07-25"
+    },
+    "ARCH-2026-0024": {
+      "full_name": "Saoirse Murphy",
+      "email": "s.murphy@archerco.com",
+      "department": "Technology",
+      "occupation": "Cybersecurity Analyst",
+      "role": "Senior Cybersecurity & Information Security Analyst",
+      "purpose": "Protects the company's digital assets by monitoring for threats, managing vulnerability assessments, and responding to security incidents. Develops and enforces information security policies, conducts employee security awareness training, and ensures compliance with SOC 2, NIST, and US data protection regulations.",
+      "age": "35",
+      "location": "Washington, DC",
+      "employment_type": "permanent",
+      "status": "active",
+      "salary": "138000",
+      "salary_currency": "USD",
+      "contract_end": "",
+      "date_added": "2022-09-12"
+    },
+    "ARCH-2026-0025": {
+      "full_name": "Lucas Ferreira",
+      "email": "l.ferreira@archerco.com",
+      "department": "Technology",
+      "occupation": "Frontend Developer",
+      "role": "Junior Frontend UI/UX Developer",
+      "purpose": "Builds and maintains responsive user interfaces for internal tools and client-facing web applications using React and modern CSS frameworks. Collaborates with the senior engineer and product team to translate design mockups into pixel-perfect, accessible, and performant UI components.",
+      "age": "24",
+      "location": "Miami, FL",
+      "employment_type": "probation",
+      "status": "active",
+      "salary": "82000",
+      "salary_currency": "USD",
+      "contract_end": "2025-08-31",
+      "date_added": "2025-03-01"
+    },
+    "ARCH-2026-0026": {
+      "full_name": "Margaret Snow",
+      "email": "marg.snow@archerco.com",
+      "department": "Administration",
+      "occupation": "Executive Head",
+      "role": "Senior",
+      "purpose": "",
+      "age": "55",
+      "location": "Florida, USA",
+      "employment_type": "permanent",
+      "status": "active",
+      "contract_end": "",
+      "salary": "210000",
+      "salary_currency": "USD",
+      "photo": null,
+      "promotion_requests": [],
+      "date_added": "2026-03-22"
+    }
+  },
+  "departments": {
+    "Administration": {
+      "description": "Administrative operations and corporate governance",
+      "head_id": "ARCH-2026-0026"
+    },
+    "Human Resources": {
+      "description": "People operations, talent acquisition and development",
+      "head_id": null
+    },
+    "Finance": {
+      "description": "Financial planning, accounting and treasury",
+      "head_id": null
+    },
+    "Operations": {
+      "description": "Core business operations and service delivery",
+      "head_id": null
+    },
+    "Technology": {
+      "description": "IT infrastructure, software and digital systems",
+      "head_id": null
+    }
+  },
+  "audit_log": [
+    {
+      "ts": "2026-03-23 08:12:28",
+      "user": "admin",
+      "action": "Login",
+      "target": "admin",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 13:56:01",
+      "user": "hr_manager",
+      "action": "Login",
+      "target": "hr_manager",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 13:25:22",
+      "user": "MEI",
+      "action": "Login",
+      "target": "MEI",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 13:08:58",
+      "user": "admin",
+      "action": "Login",
+      "target": "admin",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 13:05:27",
+      "user": "admin",
+      "action": "Login",
+      "target": "admin",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 13:02:24",
+      "user": "admin",
+      "action": "Updated department",
+      "target": "Administration",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 13:01:13",
+      "user": "admin",
+      "action": "Login",
+      "target": "admin",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 13:00:28",
+      "user": "MEI",
+      "action": "Leave request submitted",
+      "target": "ARCH-2026-0001",
+      "detail": "sick"
+    },
+    {
+      "ts": "2026-03-22 12:59:16",
+      "user": "MEI",
+      "action": "Login",
+      "target": "MEI",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:58:53",
+      "user": "admin",
+      "action": "Added system user",
+      "target": "MEI",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:57:00",
+      "user": "admin",
+      "action": "Login",
+      "target": "admin",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:53:23",
+      "user": "staff1",
+      "action": "Login",
+      "target": "staff1",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:47:50",
+      "user": "hr_manager",
+      "action": "Login",
+      "target": "hr_manager",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:45:54",
+      "user": "hr_manager",
+      "action": "Added employee",
+      "target": "ARCH-2026-0026",
+      "detail": "Margaret Snow"
+    },
+    {
+      "ts": "2026-03-22 12:44:45",
+      "user": "hr_manager",
+      "action": "Deleted employee",
+      "target": "departments",
+      "detail": "Margaret Snow"
+    },
+    {
+      "ts": "2026-03-22 12:43:00",
+      "user": "hr_manager",
+      "action": "Updated employee",
+      "target": "departments",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:39:42",
+      "user": "hr_manager",
+      "action": "Login",
+      "target": "hr_manager",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:36:47",
+      "user": "admin",
+      "action": "Login",
+      "target": "admin",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:31:54",
+      "user": "admin",
+      "action": "Login",
+      "target": "admin",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:27:18",
+      "user": "admin",
+      "action": "Imported employees",
+      "target": "count=25",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:27:05",
+      "user": "admin",
+      "action": "Imported employees",
+      "target": "count=2",
+      "detail": ""
+    },
+    {
+      "ts": "2026-03-22 12:25:07",
+      "user": "admin",
+      "action": "Login",
+      "target": "admin",
+      "detail": ""
+    }
+  ],
+  "notifications": [
+    {
+      "id": "70d5db388503b780",
+      "ts": "2026-03-22 13:00:28",
+      "type": "info",
+      "message": "Leave request: Mei-Ling Chen \u2014 sick",
+      "read_by": [
+        "admin"
+      ],
+      "roles": [
+        "admin",
+        "hr"
+      ]
+    },
+    {
+      "id": "cdbc637ea3ddce0b",
+      "ts": "2026-03-22 12:45:54",
+      "type": "success",
+      "message": "New employee added: Margaret Snow (ARCH-2026-0026)",
+      "read_by": [
+        "hr_manager",
+        "staff1",
+        "admin"
+      ],
+      "roles": [
+        "admin",
+        "hr"
+      ]
+    }
+  ],
+  "leave_requests": [
+    {
+      "emp_id": "ARCH-2026-0001",
+      "leave_type": "sick",
+      "start_date": "2026-03-23",
+      "end_date": "2026-03-27",
+      "notes": "",
+      "status": "pending",
+      "submitted_by": "MEI",
+      "submitted_at": "2026-03-22 13:00"
+    }
+  ]
+}
